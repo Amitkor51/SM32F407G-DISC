@@ -1,0 +1,17 @@
+11:18:07 **** Incremental Build of configuration Debug for project Led_Uart ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Led_Uart.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/amitkor12/STM32CubeIDE/STM32F407G-100/Led_Uart/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Led_Uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Led_Uart.elf
+ 
+arm-none-eabi-size   Led_Uart.elf 
+arm-none-eabi-objdump -h -S  Led_Uart.elf  > "Led_Uart.list"
+   text	   data	    bss	    dec	    hex	filename
+   8688	    120	   1640	  10448	   28d0	Led_Uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: Led_Uart.list
+ 
+
+11:18:08 Build Finished. 0 errors, 0 warnings. (took 754ms)
+
