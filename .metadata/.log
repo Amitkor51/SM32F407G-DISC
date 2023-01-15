@@ -669,3 +669,24 @@ org.eclipse.ui.PartInitException: Could not create the view: org.eclipse.debug.u
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-01-07 20:15:00.353
 !MESSAGE Existing sessions are:
+!SESSION 2023-01-14 13:46:03.695 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-14 13:46:26.106
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-01-14 13:46:38.977
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-01-14 13:46:39.269
+!MESSAGE Log4j initialized with config file /home/amitkor12/STM32CubeIDE/STM32F407G-100/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-01-14 13:46:55.965
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-14 14:32:36.324
+!MESSAGE Indexed 'SPI_Example' (36 sources, 100 headers) in 5.2 sec: 7,776 declarations; 48,985 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
